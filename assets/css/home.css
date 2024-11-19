@@ -29,6 +29,20 @@
     }
 }
 
+#page_name1 {
+    width: 300px;
+}
+
+#page_name2 {
+    width: 300px;
+    margin: 0 24rem;
+}
+
+#page_name3 {
+    width: 300px;
+    margin: 0 48.4rem;
+}
+
 .conteudo-principal {
     display: flex;
     flex-direction: row;
@@ -148,6 +162,11 @@ form {
         font-size: 1rem;
         padding: 0;
         color: var(--color-text);
+    }
+
+    #page_name1, #page_name2, #page_name3 {
+        width: 328px !important;
+        margin: 0 auto !important;
     }
 
     .conteudo-principal {
