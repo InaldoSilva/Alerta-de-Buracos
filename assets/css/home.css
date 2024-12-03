@@ -229,6 +229,13 @@ form {
         height: 140px;
     }
 
+    .thankyou , #obg {
+        width: 300px;
+    }
+    
+    .thankyou , #mario {
+        width: 120px;
+    }
 
     .secao {
         position: relative;
