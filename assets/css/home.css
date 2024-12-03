@@ -74,18 +74,15 @@
 }
 
 .texto {
-    border: solid 1px rgb(223, 223, 223);
     border-radius: 5px;
-    width: 250px;
-    text-align: center;
-    padding-top: 2rem;
-    margin-right: 1rem;
-    height: cover;
-    margin-top: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin:3rem auto;
 }
 
 .texto p {
-    width: 240px;
+    width: 340px;
 }
 
 .dropdown-item:hover {
@@ -111,6 +108,21 @@ form {
     border-radius: 10px;
     margin: 7rem auto;
 }
+
+#send {
+    margin: 1rem;
+    width: 5rem;
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: white;
+    color: Blue;
+    &:hover {
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        border: solid 1px rgb(0, 153, 255);
+    }
+} 
 
 #line {
     width: 300px;
@@ -180,14 +192,27 @@ form {
     }
 
     .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
         width: 290px;
-        margin: auto;
+        height: 300px;
+        margin: -40px auto 2rem;
     }
 
-    .texto  p {
-        text-align: center;
-        margin: auto;
+    .texto p {
+        letter-spacing: normal;
+        font-size: x-small;
+        text-align: justify;
     }
+
+    .texto img {
+        width: 300px;
+        height: 140px;
+    }
+
 
     .secao {
         position: relative;
