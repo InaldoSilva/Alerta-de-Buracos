@@ -124,6 +124,22 @@ form {
     }
 } 
 
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem auto;
+}
+
+.thankyou , #obg {
+    width: 600px;
+}
+
+.thankyou , #mario {
+    width: 200px;
+}
+
 #line {
     width: 300px;
     background-color: var(--color-border);
